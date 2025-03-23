@@ -9,7 +9,7 @@ const buttonVariants = cva(
       variants: {
          variant: {
             default: "",
-            outline: "",
+            outline: "border",
          },
          theme: {
             primary: "bg-primary text-primary-foreground",
@@ -32,27 +32,27 @@ const buttonVariants = cva(
          {
             variant: "outline",
             theme: "primary",
-            className: "border border-primary bg-transparent text-primary hover:bg-primary/20",
+            className: "border-primary bg-transparent text-primary hover:bg-primary/20",
          },
          {
             variant: "outline",
             theme: "destructive",
-            className: "border border-destructive bg-transparent text-destructive hover:bg-destructive/20",
+            className: "border-destructive bg-transparent text-destructive hover:bg-destructive/20",
          },
          {
             variant: "outline",
             theme: "success",
-            className: "border border-success bg-transparent text-success hover:bg-success/20",
+            className: "border-success bg-transparent text-success hover:bg-success/20",
          },
          {
             variant: "outline",
             theme: "warning",
-            className: "border border-warning bg-transparent text-warning hover:bg-warning/20",
+            className: "border-warning bg-transparent text-warning hover:bg-warning/20",
          },
          {
             variant: "outline",
             theme: "ring",
-            className: "border border-ring bg-transparent text-ring hover:bg-ring/20",
+            className: "border-ring bg-transparent text-ring hover:bg-ring/20",
          },
       ],
       defaultVariants: {
