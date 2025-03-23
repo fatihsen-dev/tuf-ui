@@ -1,4 +1,4 @@
-import Button from "./components/Button";
+import { Button } from "tuf-ui";
 
 export default function App() {
    return (
