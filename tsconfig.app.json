@@ -9,6 +9,9 @@
       "paths": {
          "tuf-ui": ["./lib/main.ts"]
       },
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "outDir": "dist",
 
       /* Bundler mode */
       "moduleResolution": "bundler",
